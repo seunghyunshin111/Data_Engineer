@@ -3,23 +3,21 @@
 
 
 # Server & DB
-
-|                                                              | On-Premise                      | Azure (=Cloud) |
-| ------------------------------------------------------------ | ------------------------------- | -------------- |
-| Server                                                       | • 프로젝트 시작 시, Manual      |                |
-| 서버 스펙 어떤건지 문의 (버전에 따라 쓸 수 있는 dax/power query 다 다르기 때문) → |                                 |                |
-| (MS) SQL Server (R) → 명칭 판권 구매                                                      • 서버 종류 |                                 |                |
-| Standard / Enterprise                                        |                                 |                |
-| 2008- S : DAX SSAS 개수 변함/  E                             |                                 |                |
-| 2012                                                         |                                 |                |
-| 2016                                                         |                                 |                |
-| 2019                                                         |                                 |                |
-| 2022                                                         | • server필요 없음               |                |
-| • power bi tool 제외(dax, 파워쿼리 포함)                     |                                 |                |
-| DB                                                           | 온프레미스 버전 ETL 도구 → SSIS |                |
-| 온프레미스 버전 분석 도구 → SSAS (대용량일 경우, SSAS를 추천, 속도가 빠르게 처리 → BI 에서는 차트를 뿌리기만 하면 됨) | • Azure SQL Database            |                |
-| • DB Lists                                                   |                                 |                |
-
+|  | On-Premise | Azure (=Cloud) |
+| --- | --- | --- |
+| Server | • 프로젝트 시작 시, Manual
+서버 스펙 어떤건지 문의 (버전에 따라 쓸 수 있는 dax/power query 다 다르기 때문) →
+(MS) SQL Server (R) → 명칭 판권 구매                                                      • 서버 종류
+Standard / Enterprise
+2008- S : DAX SSAS 개수 변함/  E
+2012
+2016
+2019
+2022 | • server필요 없음
+• power bi tool 제외(dax, 파워쿼리 포함) |
+| DB | 온프레미스 버전 ETL 도구 → SSIS
+온프레미스 버전 분석 도구 → SSAS (대용량일 경우, SSAS를 추천, 속도가 빠르게 처리 → BI 에서는 차트를 뿌리기만 하면 됨) | • Azure SQL Database
+• DB Lists |
 ------
 
 ### ETL / ELT
