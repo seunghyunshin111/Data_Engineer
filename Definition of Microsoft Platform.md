@@ -1,34 +1,30 @@
 # Definition of Microsoft Platform
 
-
+<br>
 
 # Server & DB
-|  | On-Premise | Azure (=Cloud) |
-| --- | --- | --- |
-| Server | • 프로젝트 시작 시, Manual
-서버 스펙 어떤건지 문의 (버전에 따라 쓸 수 있는 dax/power query 다 다르기 때문) →
-(MS) SQL Server (R) → 명칭 판권 구매                                                      • 서버 종류
-Standard / Enterprise
-2008- S : DAX SSAS 개수 변함/  E
-2012
-2016
-2019
-2022 | • server필요 없음
-• power bi tool 제외(dax, 파워쿼리 포함) |
-| DB | 온프레미스 버전 ETL 도구 → SSIS
-온프레미스 버전 분석 도구 → SSAS (대용량일 경우, SSAS를 추천, 속도가 빠르게 처리 → BI 에서는 차트를 뿌리기만 하면 됨) | • Azure SQL Database
-• DB Lists |
-------
+
+
+
+<img width="612" alt="Screen Shot 2022-07-25 at 9 04 59 PM" src="https://user-images.githubusercontent.com/57430754/180773966-42482785-e98b-4176-be94-04b7f7b66cc4.png">
+
+*[DB Lists](https://azure.microsoft.com/ko-kr/products/category/databases/)
+
+<br>
 
 ### ETL / ELT
 
 → ELT 시 고객사의 사용 편리함은 있으나, 결과적으로 처리 성능 저하 및 비용 증가로 ETL이 우수함
 
-------
+<br>
+
+<br>
 
 ## Server = DB(Data Warehouse) + 가상공간(SSIS, SSAS, SSRS)
 
 - Server 32GB도 부족한 편
+
+<br>
 
 **Microsoft SSIS(SQL Server Integration Services)는 데이터 웨어하우징을 위한 ETL(추출, 변환 및 로드) 패키지를 비롯하여 고성능 데이터 통합 솔루션을 작성하기 위한 플랫폼**
 
@@ -38,6 +34,8 @@ Standard / Enterprise
 
 **유지관리**
 
+<br>
+
 ### **OLTP 기간계**
 
 **클라우드 버전 SSIS (X) → ADF(Azure Data Factory)**
@@ -46,7 +44,9 @@ Standard / Enterprise
 
 **클라우드 버전 분석 도구 → Azure Analytics Service**
 
-------
+<br>
+
+<br>
 
 # Gateway
 
@@ -57,14 +57,20 @@ Standard / Enterprise
 
 - IR
 
+<br>
+
 ### 기간계 서버 → Power BI
 
 - Power BI Gateway
+
+<br>
 
 ### 기간계 서버 ←→ 기간계 서버(중계 서버=프록시 서버) → (Azure 서버) → Power BI
 
 - 프록시 서버 : 보안을 위해 타사가 바로 DB에 대지 못하게 함
 - Azure 전용선 : 인터넷이 안 되어야 함 → Data가 인터넷으로 나가는 문제가 있음
+
+<br>
 
 ## Azure 서버 → Power BI
 
