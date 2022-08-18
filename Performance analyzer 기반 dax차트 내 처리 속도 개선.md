@@ -2,13 +2,11 @@
 
 ### 1.
 
-![image-20220817101603925](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220817101603925.png)
+![image](https://user-images.githubusercontent.com/57430754/185269604-e235d242-6199-4569-8c31-32f0d2c9d0e9.png)
 
 주석 삭제 후,
 
-![image-20220817101730506](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220817101730506.png)
-
-
+![image](https://user-images.githubusercontent.com/57430754/185269610-53482b80-bd97-49b8-991e-44f390e49b0c.png)
 
 **-2.12% 속도 개선**
 
@@ -20,9 +18,7 @@
 
 ### 주의
 
-![image-20220817102117556](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220817102117556.png)
-
-
+![image](https://user-images.githubusercontent.com/57430754/185269650-25a9d065-f385-4ae8-b546-93a48f6c8bdd.png)
 
 - 같은 페이지 Performance analyzer Refresh 해도, 이전과 처리 Duration (ms) 가 다름
 - 근본적으로 데이터 리프레쉬 부분에서 파티션 등의 변화가 필요
@@ -43,7 +39,8 @@
 
 ### 결과
 
-- ![image-20220818093236616](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220818093236616.png)
+![image](https://user-images.githubusercontent.com/57430754/185269680-362d2235-ebaf-4bfb-9d18-ccaf4b719d78.png)
+
 - VAR 사용 측정 값: 7666
 - VAR 사용하지 않은 개별 측정 값: 1721
   - 최종 Return 값만 해당 측정 값 내부(6)에 삽입.
@@ -60,7 +57,7 @@
 
 ## 슬라이서 필터 변경
 
-![image-20220818100049350](C:\Users\user\AppData\Roaming\Typora\typora-user-images\image-20220818100049350.png)
+![image](https://user-images.githubusercontent.com/57430754/185269710-2de5ae89-f994-420e-9649-21e6e2885011.png)
 
 - 해당 슬라이서가 Duration (ms) 조금 작용하기 때문에, 이 페이지 Filters로 변경해보겠음
 - 페이지 전체 Duration (ms) 감소 목적
